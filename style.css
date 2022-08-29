@@ -1,0 +1,53 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Banner css starts */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: #161616;
+    border-radius: 30px;
+}
+.banner-title{
+    color: #FFFFFF;
+    margin-left: 106px; 
+}
+.banner-heading{
+    font-size: 3em;
+}
+.watch{
+    display: flex;  
+}
+.watch-btn{
+    border: 1px solid green;
+    background-color: #DD0000;
+    Padding:5px 10px;
+    gap: 10px;
+    border-radius: 5px;
+}
+.watch-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.watch-icon img{
+    width: 20px;
+    height: 20px;
+}
+.watch-image img{
+    width: 581px;
+    height: 613px;
+}
+.banner-image img{
+    width: 581px;
+    height: 613px;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+/* Banner css ends */
