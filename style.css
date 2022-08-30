@@ -42,6 +42,15 @@ body{
     width: 581px;
     height: 613px;
 }
+.banner-image{
+   transition: width 10s, hight 10s;
+    
+}
+.banner-image :hover{
+    width: 400px;
+    transform: rotate(-10deg);
+
+}
 .banner-image img{
     width: 581px;
     height: 613px;
